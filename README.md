@@ -182,29 +182,7 @@ Designed for:
 
 ---
 
-## 📸 Screenshots
 
-> Add screenshots of the application here after completion.
-
-Example:
-
-```
-/screenshots
-
-home.png
-
-repair.png
-
-formatter.png
-
-validator.png
-
-compare.png
-
-converter.png
-```
-
----
 
 ## 🌟 Future Improvements
 
