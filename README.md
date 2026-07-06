@@ -129,13 +129,7 @@ devtools-hub/
 │
 ├── public/
 │
-├── PROJECT_SPEC.md
-├── design.md
-├── AGENTS.md
-├── TASKS.md
-├── package.json
-└── vite.config.js
-```
+
 
 ---
 
