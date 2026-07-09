@@ -20,7 +20,7 @@ function summarizeDelta(delta){
     if(!delta || typeof delta !== 'object'){
         return 'No differences detected.';
     }
-
+   
     const changes = object.keys(delta).length;
     return `Detected ${changes} structural changes ${changes === 1 ? '' : 's'}.`;
 }
