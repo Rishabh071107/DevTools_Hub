@@ -15,14 +15,14 @@ export function repairController(req , res){
 
         return res.json({
             success: true,
-            message: 'JSON required successfully',
+            message: 'JSON repaired successfully',
             data: result,
         });
     } catch(error){
         return res.status(400).json({
             success: false,
             message: 'Unable to repair the provided JSON',
-            data: {error: errpr.message},
+            data: {error: error.message},
         });
     }
 }

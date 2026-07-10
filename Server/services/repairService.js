@@ -1,9 +1,9 @@
 import {jsonrepair} from 'jsonrepair';
 
 
-function countOccurences(text, value){
+function countOccurrences(text, value){
     let count = 0;
-    let index = text.indexof(value);
+    let index = text.indexOf(value);
     while(index !== -1){
         count += 1;
         index = text.indexOf(value, index+value.length);
@@ -23,12 +23,12 @@ function getDepth(obj){
              maxDepth = Math.max(maxDepth,getDepth(obj[key]))
 
              
-        }
+        }   
     }
     return 1+ maxDepth;
 }
 
-function buildStatistics(input,repaireed,parsed){
+function buildStatistics(input,repaired,parsed){
     const lines = input.split(/\r?\n/).length;
     const characters = input.length;
  const keys = (repaired.match(/"([^"]+)"\s*:/g) || []).length;
