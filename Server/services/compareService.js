@@ -21,7 +21,7 @@ function summarizeDelta(delta){
         return 'No differences detected.';
     }
    
-    const changes = object.keys(delta).length;
+    const changes = Object.keys(delta).length;
     return `Detected ${changes} structural changes ${changes === 1 ? '' : 's'}.`;
 }
 
